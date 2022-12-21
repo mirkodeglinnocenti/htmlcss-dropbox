@@ -29,15 +29,36 @@ a{
     background-color: aqua;
 }
 
-.debug main{
-    background-color: rgb(126, 126, 126);
-    min-height: calc( 100vh - 85px);
+.debug .container-large, .container-small{
+    border: 3px dotted black;
 }
+
+.debug .hero{
+    background-color: coral;
+    min-height: 80vh;
+    padding: 70px 0;
+}
+
 /* PRINCIPAL RULES */
 .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-fw{
+    width: 100%;
+}
+
+.container-large{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-small{
+    width: 650px;
+    margin: 0 auto;
 }
 
 .pl-20{
@@ -52,8 +73,27 @@ a{
     line-height: 35px;
 }
 
+.col-100{
+    flex-basis: 100%;
+    background-color: blueviolet;
+}
+
+.col-33{
+    flex-basis: calc( (100% / 12) *4 );
+    background-color: rgb(153, 103, 199);
+}
+
+.col-66{
+    flex-basis: calc( (100% / 12) *8 );
+    background-color: rgb(78, 71, 85);
+}
+
 /* HEADER RULES */
 
 .main-header .container-fw > .row{
-    padding: 25px 20px;
+    padding: 20px;
+}
+
+.main-header{
+    font-size: 14px;
 }
