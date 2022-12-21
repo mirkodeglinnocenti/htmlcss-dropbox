@@ -34,9 +34,20 @@ a{
 }
 
 .debug .hero{
-    background-color: coral;
     min-height: 80vh;
     padding: 70px 0;
+}
+
+.debug .col-100{
+    background-color: blueviolet;
+}
+
+.debug .col-33{
+    background-color: rgb(153, 103, 199);
+}
+
+.debug .col-66{
+    background-color: rgb(78, 71, 85);
 }
 
 /* PRINCIPAL RULES */
@@ -52,17 +63,25 @@ a{
 }
 
 .container-large{
-    width: 800px;
+    width: 1250px;
     margin: 0 auto;
 }
 
 .container-small{
-    width: 650px;
+    width: 1040px;
     margin: 0 auto;
 }
 
-.pl-20{
+.plr-20{
     padding: 0 20px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.mtb-25{
+    margin: 25px 0;
 }
 
 .button{
@@ -70,22 +89,32 @@ a{
     background-color: #0061FF;
     display: inline-block;
     padding: 0 20px;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 .col-100{
     flex-basis: 100%;
-    background-color: blueviolet;
 }
 
 .col-33{
     flex-basis: calc( (100% / 12) *4 );
-    background-color: rgb(153, 103, 199);
 }
 
 .col-66{
     flex-basis: calc( (100% / 12) *8 );
-    background-color: rgb(78, 71, 85);
+}
+
+.h1-title{
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.main-text{
+    font-size: 18px;
+}
+
+span.main-text{
+    display: block;
 }
 
 /* HEADER RULES */
@@ -95,5 +124,24 @@ a{
 }
 
 .main-header{
-    font-size: 14px;
+    font-size: 16px;
+}
+
+/* HERO */
+
+.hero{
+    background-color: #B4D0E7;
+    padding: 70px 0;
+    height: 75vh;
+    position: relative;
+}
+
+.hero .row{
+    align-items: flex-start;
+}
+
+.hero-arrow{
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
 }
