@@ -1,0 +1,24 @@
+/* RESET RULES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+menu{
+    list-style: none;
+}
+
+/* DEBUG RULES */
+.debug .row{
+    background-color: aqua;
+}
+
+/* PRINCIPAL RULES */
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
