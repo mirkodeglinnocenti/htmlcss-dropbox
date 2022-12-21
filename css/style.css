@@ -5,10 +5,23 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
 ul,
 li,
 menu{
     list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
 
 /* DEBUG RULES */
@@ -16,9 +29,31 @@ menu{
     background-color: aqua;
 }
 
+.debug main{
+    background-color: rgb(126, 126, 126);
+    min-height: calc( 100vh - 85px);
+}
 /* PRINCIPAL RULES */
 .row{
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    align-items: center;
+}
+
+.pl-20{
+    padding: 0 20px;
+}
+
+.button{
+    color: white;
+    background-color: #0061FF;
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 35px;
+}
+
+/* HEADER RULES */
+
+.main-header .container-fw > .row{
+    padding: 25px 20px;
 }
