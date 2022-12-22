@@ -231,6 +231,10 @@ span.main-text{
     position: relative;
 }
 
+.color-purple{
+    color: #61082B;
+}
+
 /* HEADER RULES */
 
 .main-header .container-fw > .row{
@@ -356,12 +360,17 @@ ul.direction-col{
 /* TESTIMONIAL SECTION */
 
 .square{
-    padding: 130px 75px;
+    padding: 0 75px;
+    flex-basis: 335px;
     text-align: center;
 }
 
 .svg{
     filter: invert(100%);
+}
+
+.col-2.direction-col{
+    justify-content: center;
 }
 
 .padding-green{
@@ -399,4 +408,11 @@ ul.direction-col{
 
 .bg-yellow{
     background-color: #FFD830;
+}
+
+/* PROVA GRATUITA SECTION */
+
+.prova-gratuita-section{
+    background-color: #B4D0E7;
+    padding: 150px 0;
 }
