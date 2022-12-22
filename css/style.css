@@ -184,12 +184,10 @@ a{
 
 .col-2{
     flex-basis: calc(100% / 6);
-    border: 2px dotted dodgerblue;
 }
 
 .col-4{
     flex-basis: calc( (100% / 12) *4 );
-    border: 2px dotted dodgerblue;
 }
 
 .h1-title{
@@ -347,4 +345,52 @@ ul.direction-col{
 
 .service-section .row{
     row-gap: 70px;
+}
+
+/* TESTIMONIAL SECTION */
+
+.square{
+    padding: 130px 75px;
+    text-align: center;
+}
+
+.svg{
+    filter: invert(100%);
+}
+
+.padding-green{
+    padding: 15px;
+    background-color: #D1E9CD;
+}
+
+.bg-green{
+    background-color: #A2D39B;
+}
+
+.bg-lightblue{
+    background-color: #0093CE;
+}
+
+.bg-bordeaux{
+    background-color: #61082B;
+}
+
+.bg-lightred{
+    background-color: #FF1C1C;
+}
+
+.bg-red{
+    background-color: #D5001F;
+}
+
+.bg-blu{
+    background-color: #0D2481;
+}
+
+.bg-sky{
+    background-color: #B4D0E7;
+}
+
+.bg-yellow{
+    background-color: #FFD830;
 }
