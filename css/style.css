@@ -14,7 +14,7 @@ img{
 }
 
 ul,
-li,
+ol,
 menu{
     list-style: none;
 }
@@ -50,6 +50,10 @@ a{
     background-color: rgb(78, 71, 85);
 }
 
+.debug .col-33{
+    border: 2px solid black;
+}
+
 /* PRINCIPAL RULES */
 .row{
     display: flex;
@@ -59,21 +63,29 @@ a{
 }
 
 .container-fw{
-    width: 100%;
+    max-width: 100%;
 }
 
 .container-large{
-    width: 1250px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 
 .container-small{
-    width: 1040px;
+    max-width: 1040px;
     margin: 0 auto;
 }
 
 .plr-20{
     padding: 0 20px;
+}
+
+.plr-25{
+    padding: 0 25px;
+}
+
+.margin-neg{
+    margin: 0 -25px;
 }
 
 .mb-50{
@@ -109,12 +121,26 @@ a{
     font-weight: 900;
 }
 
+.general-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.general-link{
+    color: blue;
+    text-decoration: underline;
+}
+
 .main-text{
     font-size: 18px;
 }
 
 span.main-text{
     display: block;
+}
+
+.position-relative{
+    position: relative;
 }
 
 /* HEADER RULES */
@@ -127,12 +153,15 @@ span.main-text{
     font-size: 16px;
 }
 
+.logo-header{
+    height: 22px;
+}
+
 /* HERO */
 
 .hero{
     background-color: #B4D0E7;
     padding: 70px 0;
-    height: 75vh;
     position: relative;
 }
 
@@ -144,4 +173,48 @@ span.main-text{
     font-size: 50px;
     position: absolute;
     bottom: 20px;
+}
+
+.jumbo{
+    position: absolute;
+}
+
+/* MAIN CONTENT */
+
+.main-content{
+    padding-top: 150px;
+}
+
+.pallino-pieno::before{
+    content: '\f058';
+}
+
+/* CARD RULES */
+
+.card{
+ border: 2px solid rgb(134, 134, 134);
+ /* padding: 15px 20px; */
+}
+
+.category-card{
+    border-bottom: 2px solid rgb(134, 134, 134);
+}
+
+.card-list{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.ul-card-list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.list-check li::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f00c";
+    color: #0061FF;
 }
