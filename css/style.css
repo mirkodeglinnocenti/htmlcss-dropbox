@@ -76,12 +76,20 @@ a{
     margin: 0 auto;
 }
 
+.pt-60{
+    padding-top: 60px;
+}
+
 .plr-20{
     padding: 0 20px;
 }
 
 .plr-25{
     padding: 0 25px;
+}
+
+.plr-50{
+    padding: 50px;
 }
 
 .pl-50{
@@ -92,12 +100,24 @@ a{
     margin: 0 -25px;
 }
 
-.mb-50{
-    margin-bottom: 50px;
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mb-25{
+    margin-bottom: 25px;
+}
+
+.mb-35{
+    margin-bottom: 35px;
 }
 
 .mb-40{
     margin-bottom: 40px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
 }
 
 .mb-60{
@@ -106,10 +126,6 @@ a{
 
 .mtb-25{
     margin: 25px 0;
-}
-
-.mb-25{
-    margin-bottom: 25px;
 }
 
 .pr-60{
@@ -128,20 +144,34 @@ a{
     line-height: 40px;
 }
 
+.button-white{
+    color: rgb(134, 134, 134);
+    background-color: white;
+    border: 2px solid rgb(134, 134, 134);
+}
+
 .col-100{
     flex-basis: 100%;
 }
 
-.col-33{
-    flex-basis: calc( (100% / 12) *4 );
+.col-70{
+    flex-basis: 70%;
 }
 
 .col-66{
     flex-basis: calc( (100% / 12) *8 );
 }
 
-.col-70{
-    flex-basis: 70%;
+.col-60{
+    flex-basis: 60%;
+}
+
+.col-40{
+    flex-basis: 40%;
+}
+
+.col-33{
+    flex-basis: calc( (100% / 12) *4 );
 }
 
 .col-30{
@@ -160,6 +190,10 @@ a{
 
 .small-title{
     font-size: 16px;
+}
+
+.title-3{
+    font-size: 22px;
 }
 
 .general-link{
@@ -201,7 +235,7 @@ span.main-text{
     position: relative;
 }
 
-.hero .row{
+.flex-start{
     align-items: flex-start;
 }
 
@@ -218,7 +252,7 @@ span.main-text{
 /* MAIN CONTENT */
 
 .main-content{
-    padding-top: 150px;
+    padding: 150px 0;
 }
 
 .row-main-content{
@@ -255,10 +289,6 @@ span.main-text{
     padding: 40px 30px;
 }
 
-.title-card{
-    font-size: 22px;
-}
-
 .card-list{
     display: flex;
     align-items: baseline;
@@ -291,5 +321,10 @@ ul.direction-col{
 
 .content-card .row{
     align-items: flex-start;
-    /* flex-wrap: nowrap; */
+}
+
+/* PARTNER SECTION RULES */
+
+.partner-section img{
+    display: block;
 }
