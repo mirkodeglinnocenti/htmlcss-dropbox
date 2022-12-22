@@ -124,6 +124,10 @@ a{
     margin-bottom: 60px;
 }
 
+.mb-150{
+    margin-bottom: 150px;
+}
+
 .mtb-25{
     margin: 25px 0;
 }
@@ -176,6 +180,16 @@ a{
 
 .col-30{
     flex-basis: 30%;
+}
+
+.col-2{
+    flex-basis: calc(100% / 6);
+    border: 2px dotted dodgerblue;
+}
+
+.col-4{
+    flex-basis: calc( (100% / 12) *4 );
+    border: 2px dotted dodgerblue;
 }
 
 .h1-title{
@@ -327,4 +341,10 @@ ul.direction-col{
 
 .partner-section img{
     display: block;
+}
+
+/* SECTION SERVICE */
+
+.service-section .row{
+    row-gap: 70px;
 }
