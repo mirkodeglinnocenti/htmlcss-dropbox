@@ -150,6 +150,7 @@ a{
     display: inline-block;
     padding: 0 20px;
     line-height: 40px;
+    text-align: center;
 }
 
 .button-white{
@@ -194,6 +195,10 @@ a{
 .col-4{
     flex-basis: calc( (100% / 12) *4 );
     border: 2px dotted blueviolet;
+}
+
+.col-grow{
+    flex-grow: 1;
 }
 
 .h1-title{
@@ -311,6 +316,10 @@ span.main-text{
     padding: 40px 30px;
 }
 
+.content-card .button{
+    width: 100%;
+}
+
 .card-list{
     display: flex;
     align-items: baseline;
@@ -360,17 +369,27 @@ ul.direction-col{
 /* TESTIMONIAL SECTION */
 
 .square{
-    padding: 0 75px;
-    flex-basis: 335px;
+    flex-basis: calc(100%/2);
+    aspect-ratio: 1;
     text-align: center;
 }
 
 .svg{
+    width: 50%;
     filter: invert(100%);
+}
+
+.square.row{
+    justify-content: center;
+    align-items: center;
 }
 
 .col-2.direction-col{
     justify-content: center;
+}
+
+.logo-svg-center{
+    width: 50%;
 }
 
 .padding-green{
