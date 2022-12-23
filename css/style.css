@@ -148,6 +148,10 @@ a{
     padding-right: 60px;
 }
 
+.ptb-110{
+    padding: 110px 0;
+}
+
 .line-50{
     width: 50px;
 }
@@ -193,6 +197,10 @@ a{
 
 .col-30{
     flex-basis: 30%;
+}
+
+.col-20{
+    flex-basis: 20%;
 }
 
 .col-2{
@@ -273,6 +281,10 @@ span.main-text{
 
 .flex-start{
     align-items: flex-start;
+}
+
+.justify-start{
+    justify-content: flex-start;
 }
 
 .hero-arrow{
@@ -462,4 +474,42 @@ ul.direction-col{
 
 .domande-group .domande-cascata:last-child{
     border-bottom: 4px solid #969393;
+}
+
+/* MAIN FOOTER RULES */
+
+.main-footer{
+    background-color: black;
+    color: white;
+}
+
+.title-footer{
+    font-size: 26px;
+}
+
+.link-footer a{
+    color: white;
+    padding: 10px 0;
+    font-weight: 400;
+}
+
+.link-footer li{
+    margin: 10px 0;
+}
+
+.sub-footer{
+    margin-bottom: 50px;
+}
+
+.sub-footer .row.justify-start{
+    gap: 7px;
+}
+
+.sub-footer::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 50px;
 }
